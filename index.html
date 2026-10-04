@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristofer Luciano | Estudiante de Ingeniería en Sistemas & Desarrollador Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">&lt;CristoferDev /&gt;</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+       <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-avatar">
+                <img src="Foto_de_perfil.jpeg" alt="Cristofer Luciano" class="avatar-img">
+            </div>
+            <h1>Cristofer Luciano</h1>
+            <p>Estudiante de Ingeniería en Sistemas y Desarrollador Web enfocado en crear soluciones tecnológicas eficientes.</p>
+            <div class="btn-group">
+                <a href="#projects" class="btn">Ver Proyectos</a>
+                <a href="#contact" class="btn btn-outline">Contáctame</a>
+            </div>
+        </section>
+
+        <!-- Sobre Mí -->
+        <section id="about">
+            <h2 class="section-title">Sobre mí</h2>
+            <p class="section-text">
+                Estudiante de Ingeniería en Sistemas en etapa avanzada (11vo cuatrimestre) en la Universidad Dominicana O&M.  Poseo una base sólida en desarrollo web, programación de software, bases de datos y redes informáticas. He aplicado mis conocimientos en entornos prácticos y corporativos, combinando el desarrollo de software con la gestión logística e industrial.
+            </p>
+        </section>
+
+        <!-- Experiencia Profesional -->
+        <section id="experience">
+            <h2 class="section-title">Experiencia Profesional</h2>
+            <div class="card">
+                <h3>Inventory | Hayco</h3>
+                <span class="date">21 de Agosto 2025 - Presente</span>
+                <ul>
+                    <li>Gestión y control de inventario mediante SAP ERP.</li>
+                    <li>Registro, seguimiento y actualización de movimientos de materiales en el sistema.</li>
+                    <li>Control de existencias y conciliación entre inventario físico y registros del sistema.</li>
+                    <li>Identificación y seguimiento de diferencias de inventario para garantizar la precisión de la información.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="projects">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            
+            <div class="card">
+                <h3>Xtech</h3>
+                <span class="date">2026</span>
+                <p class="card-desc">
+                    Desarrollo de aplicación web con funcionalidades de gestión de información y panel administrativo.
+                </p>
+                <p class="tech-tag">
+                    <strong>Tecnologías:</strong> HTML, CSS, JavaScript, Node.js, SQL
+                </p>
+                <a href="https://crixx17.github.io/Xtech/" target="_blank" class="btn btn-sm">Ver Proyecto</a>
+            </div>
+
+            <div class="card">
+                <h3>Red de Infraestructura Inalámbrica - Cisco Packet Tracer</h3>
+                <span class="date">2026</span>
+                <p class="card-desc">
+                    Diseño y configuración de infraestructura de red inalámbrica con equipos Cisco, implementando VLAN, DHCP, WLC y AAA/RADIUS.
+                </p>
+                <p class="tech-tag">
+                    <strong>Tecnologías:</strong> Cisco Packet Tracer, VLAN, DHCP, WLC, AAA/RADIUS
+                </p>
+                <a href="https://drive.google.com/file/d/19Bt-u5gkNlGhYi3G-1e8jVrgKfek6QHW/view" target="_blank" class="btn btn-outline btn-sm">Ver Documentación</a>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="skills">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Desarrollo Web & Backend</h4>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Programación & BD</h4>
+                    <p>C#, Python, SQL, SQLite, Supabase</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Redes & ERP</h4>
+                    <p>Cisco, VLAN, DHCP, SAP ERP, Linux</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Herramientas & Control</h4>
+                    <p>GitHub, VS Code, Cisco Packet Tracer</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contact">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-text" style="margin-bottom: 1rem;">¿Interesado en colaborar o tienes una oportunidad profesional? ¡Escríbeme!</p>
+            <p class="contact-item"><i class="fa-solid fa-envelope" style="color: var(--accent); margin-right: 0.5rem;"></i> ruizcristoferluciano@gmail.com</p>
+            <p class="contact-item"><i class="fa-solid fa-phone" style="color: var(--accent); margin-right: 0.5rem;"></i> (849)-379-3749</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Crixx17" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/cristoferlucianoruiz" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>&copy; <span id="current-year">2026</span> Cristofer Luciano. Creado con HTML5, CSS3 y JavaScript.</p>
+    </footer>
+
+    <!-- Lógica de JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
