@@ -305,3 +305,8 @@ footer .social-links a:hover {
     transform: scale(1.05);
     box-shadow: 0 15px 30px -5px rgba(56, 189, 248, 0.5);
 }
+
+a {
+  color:  #38bdf8; 
+  text-decoration: none; 
+}
